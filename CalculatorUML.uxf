@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>65</x>
+      <y>39</y>
+      <w>351</w>
+      <h>416</h>
+    </coordinates>
+    <panel_attributes>
+-nums: vector&lt;double&gt;
+-counter: int
+-double total
+-double standardDeviation
+-double mean
+--
++readNums(): void
++calculateMean(): void
++calculateStandardDeviation(): void
++getMean(): double
++getStandardDeviation(): double
+
+
+--
+Responsibilities
+-- Calculate Standard
+	Deviation
+-- Calculate Average
+-- Read back the calculated values</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>182</x>
+      <y>0</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Calculator</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
